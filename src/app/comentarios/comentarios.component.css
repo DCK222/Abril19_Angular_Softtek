@@ -1,0 +1,22 @@
+#tarea{
+    width: 200px;
+    height: 30px;
+    background-color: rgba(117, 117, 117, 0.274);
+    border-radius: 10px;
+    border: 2px solid rgb(163, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#contecoment{
+    
+    width: 600px;
+    height:auto ;
+}

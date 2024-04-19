@@ -1,0 +1,14 @@
+<body>
+    
+<div id="contecoment">
+<h1>Comentarios</h1>
+<app-crear-comentario-hijo (comentario)="agregarComent($event)" ></app-crear-comentario-hijo>
+<h2>Tareas Realizadas : </h2>
+@for(comentario of comentarios ; track $index){
+    <div id="tarea">
+    {{comentario}}
+    </div>
+
+}
+</div>
+</body>
