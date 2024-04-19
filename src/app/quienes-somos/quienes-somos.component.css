@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+
+}
+#quienescon{
+    width: 100%;
+    height: 80vh;
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+    gap: 5%;
+}
+#fotocon{
+    width: 40%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imageso{
+    border-radius: 8px;
+}
+
